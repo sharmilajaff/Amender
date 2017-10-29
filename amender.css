@@ -1,0 +1,189 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	height:100%;
+}
+
+body{
+	background-color: #D6E1E7;
+    background:linear-gradient(to bottom, #D6E1E7, #fff);
+    background:-webkit-linear-gradient(to bottom, #D6E1E7, #fff);
+	font:14px/1.9 arial;
+   
+}
+
+.left, #logo, #menu ul li, #services div, #footer ul li{
+	float:left;
+}
+
+.right, #contact p, #footer p{
+	float:right;
+}
+
+
+#page{
+	
+    margin:0 auto;
+    width: 960px;
+    padding:10px 10px 20px 10px;
+}
+
+#header{
+	height:100px;
+	
+}
+
+#logo{
+	
+}
+
+#contact{
+	padding-top: 20px;	
+}
+
+#menu{
+	 clear:both;
+     background-color: #01AEF0;
+     border-radius: 6px;
+     overflow:hidden;
+     padding-left: 10px;
+} 
+
+#menu ul{
+	list-style-type: none;
+}
+
+#menu ul li{
+	padding-left: 10px;
+}
+
+#menu ul li a{
+	display:block;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#menu ul li a.current, 
+#menu ul li a:hover{
+	background-color:#37C8FF;
+}
+
+#content{
+	
+}
+
+#banner{
+	margin-top:10px;
+}
+
+#banner img{
+           max-width: 960px;
+           border-radius: 6px;
+           background-size:cover;
+           width: 100%;
+}
+
+#services div{
+	width:310px;
+	margin-right: 10px;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+
+#services div h3,
+#services div h4,
+#services div h5{
+	height:20px;
+	padding:10px 10px;
+	border-radius:6px;
+	background-color: #01A602;
+	font-weight:normal;
+}
+#services div h4{
+    background-color: #E08A01;
+}
+
+#services div h5{
+    background-color: #01AEF0;
+}
+
+#services p{
+	margin-top: 5px;
+	background-color: #D6E1E7;
+	border-radius:6px;
+}
+
+#footer{
+	padding-top: 20px;
+}
+
+#footer ul{
+	list-style-type: none;
+}
+
+#footer ul li{
+     padding:0 10px;
+     border-right:1px solid #F7F7F9;
+	 
+}
+
+#footer ul li a{
+
+	color:#000;
+	text-decoration: none;
+	
+}
+
+@media (min-width:0) and (max-width:420px){
+	#page{
+		width:100%;
+		box-sizing: border-box
+	}
+
+	#logo{
+		float:none;
+	}
+    
+    #logo img{
+    	display:block;
+    	margin:0 auto;
+    	width:100%;
+    	background-image: cover;
+    }
+
+    #contact{
+    	float:none;
+    	text-align: center;
+    }
+
+    #contact p{
+    	float:left;
+    	padding-right:20px;
+    }
+
+    #menu{
+    	padding-left:0px;
+    }
+
+    #menu ul li{
+    	float:none;
+    }
+
+    #services div{
+    	width:100%;
+    	margin-top:5px;
+    }
+
+    
+
+    
+
+
+
+
+
+
